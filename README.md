@@ -4,7 +4,7 @@ This is the repository for my submission to the TDS Sep 2025 - Project 1.
 
 It contains the source code for an automated application that can:
 1.  Receive a project brief via a secure API endpoint.
-2.  Use an LLM (OpenAI's GPT-4) to generate web application code.
+2.  Use an LLM to generate web application code.
 3.  Automatically create a GitHub repository, add an MIT License, and push the generated code.
 4.  Enable GitHub Pages for deployment.
 5.  Notify an evaluation server once the deployment is complete.
@@ -13,7 +13,7 @@ It contains the source code for an automated application that can:
 ## Tech Stack
 
 * **Backend:** Python 3 with FastAPI
-* **LLM:** OpenAI API
+* **LLM:** Gemini
 * **GitHub Automation:** GitHub CLI (`gh`)
 * **Deployment:** Render.com
 
