@@ -1,0 +1,15 @@
+{
+  "email": "local-test@example.com",
+  "secret": "s3cr3t-pr0j3ct-k3y-a1b2c3d4e5f6",
+  "task": "local-test-red-heading",
+  "round": 1,
+  "nonce": "local-test-nonce-123",
+  "brief": "Create a simple HTML page with the title 'Local Test' and an h1 heading that says 'Test Passed' in red color.",
+  "checks": [
+    "document.title === 'Local Test'",
+    "document.querySelector('h1').textContent === 'Test Passed'",
+    "document.querySelector('h1').style.color === 'red'"
+  ],
+  "evaluation_url": "https://webhook.site/172a1e3a-e3e9-4c10-a3e7-0ffd44e0dd3c",
+  "attachments": []
+}
